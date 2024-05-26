@@ -1,8 +1,3 @@
-
-Here's a README file tailored to your project "Around The U.S. Project":
-
-markdown
-Copy code
 # Around The U.S. Project
 
 ## Table of Contents

@@ -22,7 +22,7 @@
 
 }
 
-.profile__info_name {
+.profile__info-name {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 42px;
@@ -35,7 +35,7 @@
   align-self: center;
 }
 
-.profile__info_edit-button {
+.profile__info-edit-button {
   height: 24px;
   width: 24px;
   color: white;
@@ -48,12 +48,12 @@
   transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.profile__info_edit-button:hover {
-  opacity: 0.5;
+.profile__info-edit-button:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 
-.profile__info_title {
+.profile__info-title {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -61,6 +61,10 @@
   flex-grow: 1;
   flex-basis: 100%;
   margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 375px;
 }
 
 .profile__add-button {
@@ -74,7 +78,7 @@
 }
 
 .profile__add-button:hover {
-  opacity: 0.5;
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -90,7 +94,7 @@
     max-width: 340px;
   }
 
-  .profile__info_name {
+  .profile__info-name {
     font-size: 32px;
   }
 
@@ -108,29 +112,13 @@
 
 @media screen and (max-width: 655px) {
 
-  .profile {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
-
   .profile__info {
     padding-left: 10px;
-    flex: 0 0 auto;
     max-width: 265px;
   }
 
-  .profile__info_name {
+  .profile__info-name {
     font-size: 24px;
-  }
-
-  .profile__avatar {
-    flex: 0 0 auto;
-  }
-
-  .profile__add-button {
-    padding: 0;
-    justify-self: flex-end;
-    width: 50px;
   }
 
 }
@@ -140,25 +128,23 @@
   .profile {
     margin: 42px auto 0;
     max-width: 282px;
-    display: flex;
     flex-direction: column;
   }
 
   .profile__info {
     padding: 30px 0 36px;
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     justify-content: flex-end;
   }
 
-  .profile__info_name {
+  .profile__info-name {
     font-size: 22px;
     line-height: 1.1;
     text-align: center;
   }
 
-  .profile__info_edit-button {
+  .profile__info-edit-button {
     height: 18px;
     width: 18px;
     bottom: 2px;
@@ -166,7 +152,7 @@
     right: 6px;
   }
 
-  .profile__info_title {
+  .profile__info-title {
     text-align: center;
   }
 

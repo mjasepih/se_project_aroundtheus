@@ -12,4 +12,4 @@ This project was created utilizing a Figma brief provided by my schooling progra
 Link to the project on Figma - [https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
 
 ## Video Overview
-Coming Soon
+Video Description - [https://drive.google.com/file/d/1cwZHJWnAJTiFk0wu3GhkmXoj4j_or7CM/view?usp=drive_link](https://drive.google.com/file/d/1cwZHJWnAJTiFk0wu3GhkmXoj4j_or7CM/view?usp=drive_link)

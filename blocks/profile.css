@@ -91,11 +91,12 @@
 
   .profile__info {
     flex: 0 0 auto;
-    max-width: 340px;
+    max-width: 365px;
   }
 
   .profile__info-name {
     font-size: 32px;
+    max-width: 300px;
   }
 
   .profile__avatar {
@@ -119,6 +120,7 @@
 
   .profile__info-name {
     font-size: 24px;
+    max-width: 238px;
   }
 
 }
@@ -134,8 +136,6 @@
   .profile__info {
     padding: 30px 0 36px;
     justify-content: center;
-    flex-wrap: wrap;
-    justify-content: flex-end;
   }
 
   .profile__info-name {

@@ -1,4 +1,4 @@
-let initialCards = [
+const initialCards = [
   {
     name: "St Augustine",
     link: "https://images.unsplash.com/photo-1719425809677-72b27e85514e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
